@@ -4,6 +4,8 @@ import webbrowser
 
 print("Introduce un numero de telefono")
 num = input()
+print("¿Que mensaje quieres mandar?")
+msg = input()
 
 
 print("Introduce un numero de telefono")
