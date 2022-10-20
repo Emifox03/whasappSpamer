@@ -25,6 +25,5 @@ pyautogui.moveTo(586,740)
 pyautogui.click
 
 for i in range(int(veces)):
-    print(i)
     pyautogui.write(msg)
     pyautogui.press('enter')
