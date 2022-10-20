@@ -6,7 +6,8 @@ print("Introduce un numero de telefono")
 num = input()
 print("¿Que mensaje quieres mandar?")
 msg = input()
-
+print("¿Cuantas veces quieres enviarlo?")
+n = input()
 
 
 
@@ -25,5 +26,6 @@ pyautogui.sleep(10)
 pyautogui.moveTo(586,740)
 pyautogui.click
 
-pyautogui.write(msg)
-pyautogui.press('enter')
+for i in range(n):
+    pyautogui.write(msg)
+    pyautogui.press('enter')
