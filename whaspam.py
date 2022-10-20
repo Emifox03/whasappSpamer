@@ -1,3 +1,2 @@
 import pyautogui
-
-pyautogui.click()
+import webbrowser
