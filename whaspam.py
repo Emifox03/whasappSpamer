@@ -7,9 +7,9 @@ num = input()
 print("¿Que mensaje quieres mandar?")
 msg = input()
 print("¿Cuantas veces quieres enviarlo?")
-i = input()
+veces = input()
 
-veces = i
+
 
 
 
@@ -28,7 +28,7 @@ pyautogui.sleep(10)
 pyautogui.moveTo(586,740)
 pyautogui.click
 
-for i in range(veces):
+for i in range(int(veces)):
     print(i)
     pyautogui.write(msg)
     pyautogui.press('enter')
