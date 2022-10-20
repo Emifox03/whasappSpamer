@@ -24,4 +24,5 @@ pyautogui.sleep(2)
 pyautogui.moveTo(586,740)
 pyautogui.click
 
-pyautogui.write
+pyautogui.write()
+pyautogui.press('enter')
