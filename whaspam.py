@@ -5,6 +5,10 @@ import webbrowser
 print("Introduce un numero de telefono")
 num = input()
 
+
+print("Introduce un numero de telefono")
+num = input()
+
 #webbrowser.open('https://wa.me/15551234567')
 webbrowser.open('https://api.whatsapp.com/send?phone='+num)
 
@@ -15,3 +19,9 @@ pyautogui.click()
 pyautogui.sleep(2)
 pyautogui.moveTo(677,437)
 pyautogui.click()
+
+pyautogui.sleep(2)
+pyautogui.moveTo(586,740)
+pyautogui.click
+
+pyautogui.write
