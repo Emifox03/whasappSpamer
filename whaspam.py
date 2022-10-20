@@ -10,14 +10,8 @@ webbrowser.open('https://api.whatsapp.com/send?phone='+num)
 
 pyautogui.sleep(3)
 
-for i in range(6):
-    pyautogui.sleep(1)
-    pyautogui.press('tab')
+pyautogui.moveTo(673,326)
+pyautogui.click()
 
-pyautogui.press('tab')
-pyautogui.press('enter')
-
-for i in range(1):
-    pyautogui.press('tab')
-    
-pyautogui.press('enter')
+pyautogui.moveTo(673,326)
+pyautogui.click()
