@@ -21,7 +21,7 @@ pyautogui.sleep(2)
 pyautogui.moveTo(677,437)
 pyautogui.click()
 
-pyautogui.sleep(2)
+pyautogui.sleep(10)
 pyautogui.moveTo(586,740)
 pyautogui.click
 
