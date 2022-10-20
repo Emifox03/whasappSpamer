@@ -27,5 +27,6 @@ pyautogui.moveTo(586,740)
 pyautogui.click
 
 for i in range(n):
+    print(i)
     pyautogui.write(msg)
     pyautogui.press('enter')
