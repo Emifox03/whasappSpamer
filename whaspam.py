@@ -7,7 +7,7 @@ num = input()
 print("¿Que mensaje quieres mandar?")
 msg = input()
 print("¿Cuantas veces quieres enviarlo?")
-n = input()
+int(n = input())
 
 
 
