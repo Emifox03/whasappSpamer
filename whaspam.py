@@ -14,6 +14,7 @@ for i in range(8):
     pyautogui.sleep(1)
     pyautogui.press('tab')
 
+pyautogui.press('tab')
 pyautogui.press('enter')
 
 for i in range(1):
